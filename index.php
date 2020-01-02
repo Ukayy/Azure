@@ -29,7 +29,7 @@
     $host = "ukayazure.database.windows.net";
     $user = "ukay";
     $pass = "Uki_ashsh4ff";
-    $db = "dbo.Registration";
+    $db = "db_belajar";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
